@@ -55,6 +55,14 @@ jupyter notebook course/lesson1.ipynb
 
 streamlit run predictor_app.py
 
+## Example Output
+
+Here is an example of the prediction result from the simulator:
+
+![Simulation Result](Simulation Images/simulation_result1.png)
+![Simulation Result](Simulation Images/simulation_result2.png)
+
+
 ## 📦 Deliverables
 4 Jupyter lessons (lesson1-4.ipynb)
 Dataset (student_exam.csv)

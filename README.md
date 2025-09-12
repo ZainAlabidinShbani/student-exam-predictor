@@ -80,7 +80,7 @@ Data Science Intern Task by Zain Alabidin Shbani
 
 Contact / Email: zain.alabidin.shbani@gmail.com
 
-##📝 Notes:
+## 📝 Notes:
 The student_exam.csv dataset is synthetic for learning purposes.
 
 The project focuses on beginner-friendly workflow, so the model is simple and not production-ready.

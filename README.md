@@ -59,8 +59,8 @@ streamlit run predictor_app.py
 
 Here is an example of the prediction result from the simulator:
 
-![Simulation Result](Simulation Images/simulation_result1.png)
-![Simulation Result](Simulation Images/simulation_result2.png)
+![Simulation Result](images/simulation_result1.png)
+![Simulation Result](images/simulation_result2.png)
 
 
 ## 📦 Deliverables

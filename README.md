@@ -10,8 +10,8 @@ The project demonstrates the full data science workflow applied to a relatable p
 ---
 
 ## 📂 Project Structure
-
-### course/
+```
+course/
 - lesson1.ipynb # Exploring the dataset
 - lesson2+3.ipynb # Building a simple model and Analyzing the results
 - lesson4.ipynb # Deploying a predictor app
@@ -21,7 +21,7 @@ The project demonstrates the full data science workflow applied to a relatable p
 - requirements.txt # Project dependencies
 - README.md # Project description
 - .gitignore # Files/folders to ignore in Git
-
+```
 ---
 
 ## 🎯 Learning Outcomes

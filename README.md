@@ -39,21 +39,30 @@ By completing this course, students will:
 ## 🚀 How to Run
 
 ### 1. Clone the repository
-
+```
 git clone https://github.com/ZainAlabdinShbani/student-exam-predictor.git
 cd student-exam-predictor
+```
+
 
 ### 2. Install dependencies
 
+```
 pip install -r requirements.txt
+```
+
 
 ### 3. Open the lessons
 
+```
 jupyter notebook course/lesson1.ipynb
+```
 
 ### 4. Run the Streamlit app
 
+```
 streamlit run predictor_app.py
+```
 
 ## Example Output
 
@@ -64,16 +73,16 @@ Here is an example of the prediction result from the simulator:
 
 
 ## 📦 Deliverables
-4 Jupyter lessons (lesson1-4.ipynb)
-Dataset (student_exam.csv)
-Streamlit app (predictor_app.py)
-README and requirements for easy setup
+- 4 Jupyter lessons (lesson1-4.ipynb)
+- Dataset (student_exam.csv)
+- Streamlit app (predictor_app.py)
+- README and requirements for easy setup
 
 ## 🔄 Stretch Challenge
-Try to improve the model:
-Add more features (e.g., health, family support)
-Test Random Forest or cross-validation
-Compare multiple models
+- Try to improve the model:
+- Add more features (e.g., health, family support)
+- Test Random Forest or cross-validation
+- Compare multiple models
 
 ## 👩‍💻 Author
 Data Science Intern Task by Zain Alabidin Shbani
@@ -81,12 +90,8 @@ Data Science Intern Task by Zain Alabidin Shbani
 Contact / Email: zain.alabidin.shbani@gmail.com
 
 ## 📝 Notes:
-The student_exam.csv dataset is synthetic for learning purposes.
-
-The project focuses on beginner-friendly workflow, so the model is simple and not production-ready.
-
-Feature contributions in the Streamlit app are approximate and based on scaled logistic regression coefficients.
-
-Feel free to extend the course by adding more features, models, or improving the app UI.
-```
+- The student_exam.csv dataset is synthetic for learning purposes.
+- The project focuses on beginner-friendly workflow, so the model is simple and not production-ready.
+- Feature contributions in the Streamlit app are approximate and based on scaled logistic regression coefficients.
+- Feel free to extend the course by adding more features, models, or improving the app UI.
 

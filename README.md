@@ -10,17 +10,17 @@ The project demonstrates the full data science workflow applied to a relatable p
 ---
 
 ## 📂 Project Structure
-```
-course/
-- lesson1.ipynb # Exploring the dataset
-- lesson2+3.ipynb # Building a simple model and Analyzing the results
-- lesson4.ipynb # Deploying a predictor app
-- student_exam.csv # Example dataset
 
-- predictor_app.py # Streamlit predictor app
-- requirements.txt # Project dependencies
-- README.md # Project description
-- .gitignore # Files/folders to ignore in Git
+```text
+course/
+    - lesson1.ipynb # Exploring the dataset
+    - lesson2+3.ipynb # Building a simple model and Analyzing the results
+    - lesson4.ipynb # Deploying a predictor app
+    - student_exam.csv # Example dataset
+    - predictor_app.py # Streamlit predictor app
+    - requirements.txt # Project dependencies
+    - README.md # Project description
+    - .gitignore # Files/folders to ignore in Git
 ```
 ---
 
@@ -39,7 +39,8 @@ By completing this course, students will:
 ## 🚀 How to Run
 
 ### 1. Clone the repository
-```
+
+```bash
 git clone https://github.com/ZainAlabdinShbani/student-exam-predictor.git
 cd student-exam-predictor
 ```
@@ -47,36 +48,30 @@ cd student-exam-predictor
 
 ### 2. Install dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 
 ### 3. Open the lessons
 
-```
+```bash
 jupyter notebook course/lesson1.ipynb
 ```
 
 ### 4. Run the Streamlit app
 
-```
+```bash
 streamlit run predictor_app.py
 ```
 
-## Example Output
+## Output
 
 Here is an example of the prediction result from the simulator:
 
 ![Simulation Result](images/simulation_result1.png)
 ![Simulation Result](images/simulation_result2.png)
 
-
-## 📦 Deliverables
-- 4 Jupyter lessons (lesson1-4.ipynb)
-- Dataset (student_exam.csv)
-- Streamlit app (predictor_app.py)
-- README and requirements for easy setup
 
 ## 🔄 Stretch Challenge
 - Try to improve the model:
@@ -90,7 +85,7 @@ Data Science Intern Task by Zain Alabidin Shbani
 Contact / Email: zain.alabidin.shbani@gmail.com
 
 ## 📝 Notes:
-- The student_exam.csv dataset is synthetic for learning purposes.
+- The `student_exam.csv` dataset is synthetic for learning purposes.
 - The project focuses on beginner-friendly workflow, so the model is simple and not production-ready.
 - Feature contributions in the Streamlit app are approximate and based on scaled logistic regression coefficients.
 - Feel free to extend the course by adding more features, models, or improving the app UI.
